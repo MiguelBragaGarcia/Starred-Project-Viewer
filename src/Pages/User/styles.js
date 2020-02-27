@@ -31,7 +31,6 @@ export const Name = styled.Text`
 
 export const Bio = styled.Text`
     font-size: 14px;
-    line-height: 10px;
     color: #999;
     margin-top: 20px;
     text-align: center;

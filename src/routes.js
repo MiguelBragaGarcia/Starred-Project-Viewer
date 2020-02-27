@@ -11,9 +11,9 @@ const Routes = createAppContainer(
             User,
         },
         {
-            headerBackTitleVisible: false,
             headerLayoutPreset: 'center',
             defaultNavigationOptions: {
+                headerBackTitleVisible: false,
                 headerStyle: {
                     backgroundColor: '#7159c1',
                 },
@@ -26,3 +26,4 @@ const Routes = createAppContainer(
 export default Routes;
 
 // Importante deixar TODAS as páginas dentro do container
+// headerBackTitleVisible: false retira o título da página anterior que vem por padrão no botão de voltar
